@@ -78,7 +78,7 @@ EXECUTABLE?= $(EXECUTABLE_NAME)_$(VERSION)
 DEFINES := $(VERSION_DEFINES) $(COMPILE_DATE_TIME_DEFINES)
 COMPILER_FLAGS = -c $(OPTIMIZE_FLAGS)
 
-all: game camera
+all: game
 
 game: version checkos $(OBJECTS)
 	@echo -n 'Start executable linking.....'
