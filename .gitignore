@@ -1,13 +1,35 @@
-# Compiled Object files
-*.slo
-*.lo
+*.bin
 *.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
+*.out
+*.pyc
+*.dSYM
+*_rev.txt
+*.bin
+*.btst
+*.bts
 *.a
+*.ao
+*.nt
+ball.txt
+ballTracker
+tester
+/nbproject/private/
+/game
+config/*
+*.avi
+build/
+*~
+.settings/
+comm/resp_cal.txt
+comm/auto_cal.txt
+update/
+.DS_Store
+project
+version
+DizzyUpdate
+comm/imaging_params.txt
+comm/screen.bmp
+*.err
+*_.mp4
+comm/background.bmp
+game_*
